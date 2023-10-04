@@ -1,0 +1,13 @@
+{
+ "platform": "react",
+ "include": [
+  "m",
+  "s",
+  "i",
+  "c",
+  "S"
+ ],
+ "exclude": [],
+ "rootPath": "src/components",
+ "styleImportsPath": ""
+}

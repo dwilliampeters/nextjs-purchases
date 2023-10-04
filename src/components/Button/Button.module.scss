@@ -1,0 +1,29 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+
+.container {
+  display: block;
+  border-radius: $border-radius-xxl;
+  background-color: var(--bs-white);
+  border: 2px solid var(--bs-warning);
+  padding: calc($spacer / 2) $spacer;
+  text-align: center;
+  text-decoration: none;
+  color: var(--bs-black);
+  font-weight: bold;
+  text-align: center;
+
+  &:focus,
+  &:hover {
+    background-color: var(--bs-warning);
+  }
+}
+
+.secondary {
+  background-color: var(--bs-warning);
+
+  &:focus,
+  &:hover {
+    background-color: var(--bs-white);
+  }
+}

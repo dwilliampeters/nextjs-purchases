@@ -1,0 +1,10 @@
+// Bootstrap
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+
+$body-bg: rgba(222, 226, 230, 0.75);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+}
